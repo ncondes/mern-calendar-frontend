@@ -1,0 +1,39 @@
+
+.register__container {
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    padding: 1rem;
+    justify-content: center;
+}
+
+.register__container form {
+    background-color: #0D6EFD;
+    width: 100%;
+    height: auto;
+    padding: 4rem 5rem;
+    max-width: 35rem;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+
+.register__container form h2 {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.register__container form a {
+    color: #FFFFFF;
+}
+
+.register__links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media (max-width: 640px) {
+    .register__container form {
+        padding: 4rem 1.5rem;
+    }
+}
