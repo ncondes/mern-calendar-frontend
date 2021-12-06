@@ -8,10 +8,10 @@ import { startRegister } from '../../actions/auth';
 export const RegisterScreen = () => {
     
     const [ formRegisterValues, handleRegisterInputChange ] = useForm({
-        registerName: 'Alfonso',
-        registerEmail: 'Alfonso@gmail.com',
-        registerPassword1: '123456',
-        registerPassword2: '123456',
+        registerName: '',
+        registerEmail: '',
+        registerPassword1: '',
+        registerPassword2: '',
     });
 
     const { registerName, registerEmail, registerPassword1, registerPassword2 } = formRegisterValues;

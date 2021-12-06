@@ -7,8 +7,8 @@ import { startLogin } from '../../actions/auth';
 export const LoginScreen = () => {
 
     const [ formLoginValues, handleLoginInputChange ] = useForm({
-        loginEmail: 'Fernando@gmail.com',
-        loginPassword: '123456',
+        loginEmail: '',
+        loginPassword: '',
     });
 
     const { loginEmail, loginPassword } = formLoginValues;

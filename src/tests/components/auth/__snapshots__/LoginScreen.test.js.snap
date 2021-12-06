@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en LoginScreen Debe mostrarse correctamente 1`] = `
+<div
+  className="login__container"
+>
+  <form
+    className=""
+    onSubmit={[Function]}
+  >
+    <h2
+      className="mb-5"
+    >
+      Login
+    </h2>
+    <div
+      className="mb-3"
+    >
+      <input
+        className="form-control"
+        name="loginEmail"
+        onChange={[Function]}
+        placeholder="Email"
+        type="email"
+        value=""
+      />
+    </div>
+    <div
+      className="mb-3"
+    >
+      <input
+        className="form-control"
+        name="loginPassword"
+        onChange={[Function]}
+        placeholder="Password"
+        type="password"
+        value=""
+      />
+    </div>
+    <div
+      className="login__links"
+    >
+      <button
+        className="btn btn-primary"
+        type="submit"
+      >
+        Login
+      </button>
+      <a
+        href="/register"
+        onClick={[Function]}
+      >
+        Create a new account
+      </a>
+    </div>
+  </form>
+</div>
+`;
