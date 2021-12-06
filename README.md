@@ -35,7 +35,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution URL here]()
+- Solution URL: [Solution URL here](https://github.com/ncondes/mern-calendar-frontend)
 - Live Site URL: [Live site URL here](https://mern-calendar-ncondes.herokuapp.com/)
 
 ## My process
